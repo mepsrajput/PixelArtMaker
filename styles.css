@@ -1,0 +1,78 @@
+body, html {
+	margin: 0; padding: 0;
+}
+
+body{
+	text-align: center;
+	min-height: 100vh;
+	background: linear-gradient(145deg, #dcd8ff ,#f6fbfc, #dcd8ff);
+}
+
+h1 {
+	font-family: 'Prosto One', cursive;
+	color: #111;
+    font-size: 50px;
+	margin: .5em;
+	padding: .15em;
+	text-shadow: 1px 2px 3px gray;
+	box-shadow: 2px 3px 8px #bdbdbd;
+}
+
+h2 {
+    margin: 1em 0 .3em .25em;
+	text-shadow: 1px 1px 2px gray;
+}
+
+h2:first-of-type {
+    margin-top: 0.5em;
+}
+
+table,
+tr,
+td {
+    border: 1px solid black;
+}
+
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+tr {
+    height: 20px;
+}
+
+td {
+    width: 20px;
+}
+
+input[type=number] {
+    width: 4em;
+	padding: .15em;
+	outline: 0;
+}
+
+input[type=submit], input[type=button] {
+	min-width: 5em;
+	padding: .35em;
+	font-weight: bold;
+	background-color: #fff;
+	border: 1px solid #bbb;
+	border-radius: 3px;
+	box-shadow: 3px 5px 16px #bdbdbd;
+}
+
+input[type=submit]:hover, input[type=button]:hover {
+	box-shadow: 1px 2px 8px #bdbdbd;
+	transition: ease-in-out;
+    transition-duration: .2s;
+    transition-delay: initial;
+}
+
+input[type=submit]:focus, input[type=button]:focus{
+	outline: 0;
+}
+
+#pixelCanvas {
+	margin: 20px auto;
+}
